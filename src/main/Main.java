@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class Main {
 
-    static Semaphore semaforo = new Semaphore(4);
+    static Semaphore semaforo = new Semaphore(3);
 
     static class Paciente extends Thread{
         String nome;
